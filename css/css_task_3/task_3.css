@@ -1,0 +1,30 @@
+*{margin: 0px;
+ box-sizing: border-box;}
+body{background-color: aqua;}
+h1{font-size: 2em;}
+#box1{background-color: darkgoldenrod;
+    border: 2px solid red;
+    padding: 1rem;
+    margin: 1em;
+    width: 400px;}
+
+#box2{background-color: darkgoldenrod;
+    border: 2px solid red;
+    padding: 1rem;
+    margin: 1em;
+    width: 400px;
+    height: 25vh;}
+
+#heading1{background-color: red;
+    width: 50%;}
+
+#box3{background-color: yellow;
+    border: 2px solid red;
+    padding: 1rem;
+    margin: 1em;
+    width: 400px;
+    height: 20em;}
+
+#heading2{background-color: red;
+    width: 60vw;
+    height: 60vh;}

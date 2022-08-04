@@ -1,0 +1,23 @@
+body{background-color: aqua;}
+#box3{font-size: 90px;}
+#box1
+    {font-size: 40px;}
+
+#box2{
+    background-color: chartreuse;
+    display: none;
+    }
+
+@media only screen and (max-width: 500px){
+    #box1{background-color: crimson;
+    font-size: 20px;}
+    #box3{font-size: 40px;}
+    
+    #box2{display: block;}
+}
+
+@media only screen and (min-width: 501px) and (max-width: 700px){
+    #box1{background-color: blueviolet;
+    font-size: 30px;}
+    #box3{font-size: 60px;}
+}

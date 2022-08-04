@@ -1,0 +1,68 @@
+*{margin: 0px;
+ }
+body{background-color: skyblue;
+}
+
+.class1{background-color: gold;
+    width: 20vw;
+    display: inline-block;
+    padding: 10px;
+    margin: 25px;}
+
+#spetialdiv{background-color: black;
+    width: 80%;
+    height: 40rem;
+    position: relative;}
+
+#box1{background-color: gray;
+    position: relative;
+    left: 200px;
+    bottom: 200;}
+
+#box2{position: absolute;
+    right: 0px;
+    bottom: 50px;}
+
+#box3{background-color: blueviolet;}
+
+#navbar{background-color: red;
+    padding: 5px;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;}
+
+a{text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 25px;}
+
+#box4{width: 80%;}
+
+#box5{position: fixed;
+    right: 0;
+    bottom: 0;
+    }
+
+.img1{width: 70px;
+    height: 70px;}
+
+.img2{position: sticky;
+    top: 50%;}
+
+a:hover{color: darkmagenta;
+    font-size: 30px;
+    background-color: chartreuse;}
+
+a:visited{background-color: aqua;}
+
+#box1 h1:first-child {color: aqua;}
+#box1 h1:last-child {color: deeppink;}
+#box1 h1:nth-child(3){color: red}
+
+#box1 p::first-letter{text-transform: capitalize;
+    color:red;
+    font-size: 40px;
+    }
+
+#box1 p::selection{color: red;}

@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/3a073c5f-0160-4d85-9a42-6f59aa4b64b9/ce862595-09a3-4fbf-b41c-76386c05f759/IN-en-20220718-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    height: 100%;
+    width: 100%;
+    height: 100vh;
+    
+}   
+
+#formWrapper{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0px;
+    height: 100%;
+}
+#formcontainer{font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.75);
+
+    width: 34vw;
+    height: 95vh;
+    margin-top: 20px;
+}
+
+#h1{color: white;
+    /* text-align: left; */
+    padding-left: 100px;
+    padding-top: 50px;
+    margin-left: -25px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* 
+#h1::first-letter{
+    font-size: 50px;
+    font-weight:100; */
+
+
+#form{
+    padding-right:200px ;
+    
+}
+.input{width: 300px;
+    margin-left: 70px;
+    padding: 15px;
+    margin: 5px;
+    margin-left: 70px;
+    color:white;
+    background-color: #333333;
+    border: none;
+    border-radius: 7px;
+}
+
+.input::placeholder{font-size: 20px;}
+
+#submit{margin: 70px;
+    margin-top: 25px;
+    width: 300px;
+    background-color: #E50914;
+    padding: 15px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;}
+
+.needhelp{margin-top: 5px;
+    margin-left: 60px;
+    color: gray;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    
+    }
+
+#p{
+    /* margin-top: 1px; */
+    /* margin-left: px; */
+    color: white;
+    font-size: 13px;
+    margin-left: 8px;
+    
+}
+
+.a{text-decoration: none;
+    color: white;
+}
+
+#links{color: grey;
+    margin-left: 60px;
+}
+
+#formWrapper {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.pp{
+    font-size: 13px;
+    margin-right: 120px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.b{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}

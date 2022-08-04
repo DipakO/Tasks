@@ -1,0 +1,14 @@
+body{background-color: skyblue;}
+#box1{background-color: lawngreen;
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+    min-width: 300px;
+    min-height: 10vh;}
+
+#box2{background-color: lawngreen;
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+    max-width: 50vw;
+    max-height: 40em;}
