@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(221, 59, 218);
+    background:linear-gradient(165deg, rgba(221, 59, 218, 1)0%, rgba(65,51,227,1)100%);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.card{
+    background-color: white;
+    width: 18vw;
+    height: 18vw;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction:column;
+    align-items: center;
+    border: 2px solid black;
+
+}
+
+.userprofile{
+    width: 50%;
+    border-radius: 50%;
+}
+
+#cardcontainer1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+#cardcontainer2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+}
+
+#cardcontaine3{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.visitprofiles{
+    background-color: hotpink;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.visitprofiles:hover{
+    background-color: green;
+    color: white;
+}
