@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>MAXOTAG Helthcare Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="MAXOTAG">
+    <img src="Capture.png" alt="Helthcare logo">
+    <div id="maxotag1">
+    <h3 id="h3">MAXOTAG</h3>
+    Healthcare Service 
+    </div>
+    </div>
+    <div id="emptydiv">
+        a
+    </div>
+    <h1 id="medical"> MEDICAL <span id="form"> FORM </span>  </h1>
+    <h1 class="h1" id="h111">PERSONAL INFORMATION </h1>
+    <form id="form" action="/action_page.php" onsubmit="return validateForm()" method="post" name="myForm">
+        <label for="">Full Name :</label> <input type="text" id="username" name="uname" ><br><br>
+        <span class="formerror"></span>
+        (PlEASE USE CAPITAL) <input type="text" id="username1"><br> <br>
+
+        Date of Birth  : <input type="date" id="date" name="bdate">
+        <span></span>
+        Gender :<input type="checkbox" class="checkbox" name="gender" onclick="return myfun1()">Male
+        <input type="checkbox" class="checkbox" name="gender" onclick="return myfun1()">Female <br><br>
+        Address :<input type="text" id="Address" name="adrs"> <br><br>
+        Phone Number <input type="Phone" id="Phone_number" name="phnumber">
+        <span></span> 
+        E-mail : <input type="email" id="email" name="mail"><br><br>
+        ID Number : <input type="number" id="idnumber" required> 
+        Social Security Number : <input type="number" id="security"> <br><br>
+        Status : <input type="checkbox" name="status" class="status" id="status" onclick="return myfun3()"> Single
+        <input type="checkbox" name="status" class="status"  onclick="return myfun3()"> Married
+        <input type="checkbox" name="status" class="status"  onclick="return myfun3()"> Divorce
+        <input type="checkbox" name="status" class="status"  onclick="return myfun3()"> Other <br><br>
+        Occupation : <input type="text" id="occu">
+        Are You A Retiree? : <input name="retired" type="checkbox" id="retired" onclick="return myfun()"> Yes
+        <input name="retired"  type="checkbox" onclick="return myfun()"> No <br><br>
+        This space is where you can share notes <br><br><br>
+        
+        Note  : <input type="text" id="note">
+
+        <h2 class="h1" id="h1"> EMERGENCY CONTACT DETAILS</h2>
+    
+        Contact Name : <input type="text" id="contact" name="cname">
+        <span></span>
+        Home Number : <input type="number" id="number" name="hnum"> <br><br>
+        Relationship : <input type="text" id="relation" name="rel">
+        Mobile Number : <input type="number" id="mnumber" name="mnum">
+        <span></span>
+        <h2 class="h1" id="h11">OFFICE USE ONLY</h2>
+        Date : <input type="date" id="date1">
+        <span></span>
+        Membership Type : <input type="text" id="member"> <br><br>
+        Membership Number : <input type="number" id="memnumber">
+        Payment Type : <input type="text" id="payment"> <br><br>
+        Staff Name : <input type="text" id="sname">
+        <span></span>
+        Staff Signature : <input type="text" id="ssing"> <br><br>
+        <input type="submit" id="submit" value="Submit">
+
+
+    </form>
+    <div id="foter">
+    <h3>More Information :</h3>
+    <p>Near Sinhgad Law collage ,Pune</p>
+    +123-456-7890(Office)
+    <p> www.maxotaghelth.com</p>
+    <h1>THANK YOU</h1>
+    </div>
+    <div id="dipak">
+   <p id="p1"> Dipak Ohol </p>
+   <p id="p2">Dipak Ohol</p>
+    </div>
+    <div id="emptydiv2">
+        a 
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
