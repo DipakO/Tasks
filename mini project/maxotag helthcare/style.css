@@ -204,6 +204,8 @@ input{
     /* font-family: 'Lobster Two', cursive; */
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
+    border-bottom: 2px solid black;
+    padding: 10px;
 }
 
 #foter{
@@ -220,6 +222,11 @@ input{
 
 }
 
+#fotter1{
+    padding: 50px;
+    padding-left: 90px;
+}
+
 #emptydiv2{
     background-color: darkslategrey;
     color: darkslategray;
@@ -228,4 +235,12 @@ input{
 
 label{
     color: black;
+}
+
+#submit{
+    background-color: #086AFF;
+    border-radius: 10px;
+    padding: 10px;
+    width: 5rem;
+    color: white;
 }
