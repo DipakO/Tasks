@@ -4,60 +4,77 @@ function validateForm(){
     var returnval = true;
 
     var x = document.forms["myForm"]["uname"].value;
+    var correctWay = /^[A-Za-z]+$/;
    
     if(x.length<2){
-        alert("Name length is to short");
+        alert("**Name length is to short");
         return false;
     }
 
-    if(x !== String){
-        alert("this is not a Name")
-        return false;
+    if(x.match(correctWay)){
+        // console.log(typeof(x))
+        true;
     }
+    else{
+        alert("**this is not a Full-Name")
+        return false;
+        }    
 
     
 
     var dob = document.forms["myForm"]["bdate"].value;
     if(dob == ""){
-        alert("please enter a date")
+        alert("**please enter a Valid date of birth")
         return false
     }
 
     var address = document.forms["myForm"]["adrs"].value;
     if(address.length<8){
-        alert("please fill the full address")
+        alert("**please fill the full address")
         return false;
     }
 
     var pnumber = document.forms["myForm"]["phnumber"].value;
-    if(pnumber !==Number){
-        alert("please enter the valid number:")
+    
+
+    if(isNaN(pnumber)){
+        alert("**please enter the valid Phone number:")
         return false;
     }
+    if(pnumber.length==10){
+        true;
+    }
+    else{
+        alert("**phone number should be 10 digit")
+    }
+    // if(pnumber.charAt(0)!=9) && (pnumber.charAt(0)!=7)
+    // {
+    //     alert("**Number should be start at 9, 8")
+    // }
 
    var cname = document.forms["myForm"]["cname"].value;
    
     if(cname.length<2){
-        alert("Name length is to short");
+        alert("**Contact-Name length is to short");
         return false;
     }
 
     var rel = document.forms["myForm"]["rel"].value;
    
     if(rel.length<2){
-           alert("Its cant be empty");
+           alert("**Which type of relation is must be mention");
             return false;
         }
 
     var mnum = document.forms["myForm"]["mnum"].value;
-    if(mnum !==Number){
-        alert("please enter the valid number:")
+    if(isNaN(mnum)){
+        alert("**please enter the valid Mobile Number Of Relative:")
         return false;
     }
 
     var hnum = document.forms["myForm"]["hnum"].value;
     if(hnum >5){
-        alert("Its very large:")
+        alert("**Home number is not to long:")
         return false;
     }
 
@@ -76,7 +93,7 @@ function myfun(){
         }
     }
     if(newvar >1){
-        alert("please sellect any one value")
+        alert("**please sellect any one if you are retired or Not")
         return false
     }    
 }
@@ -91,7 +108,7 @@ function myfun1(){
         }
     }  
     if (newval > 1){
-        alert("please select only one of this??")
+        alert("**please select only one type of Gender??")
         return false
     }
 }
@@ -106,8 +123,7 @@ function myfun3(){
         }
     }
     if ( newwar > 1){
-        alert("please choose any one this")
+        alert("**please choose any one Status")
         return false
     }
 }
-
