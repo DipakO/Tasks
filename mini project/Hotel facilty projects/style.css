@@ -300,3 +300,108 @@ input{
     color: white;
     text-decoration: none;
 }
+
+@media screen and (max-width: 600px){
+    
+    #navbar{
+        width: 70vw;
+        /* margin-left: 5rem; */
+    }
+    .a{
+        margin-left: -8rem;
+        /* margin-top: 5rem; */
+    }
+    #a{
+        margin-left: 2rem;
+    }
+    #signin{
+        margin-top: 2rem;
+        color: white;
+    }
+    #sign{
+        color: white;
+    }
+    #welcome{
+        font-size: 1rem;
+        margin-left: 5rem;
+        text-align: left;
+    }
+    #landing{
+        font-size: 1rem;
+        margin-left: 7rem;
+    }
+    #p1{
+        font-size: 0.8rem;
+        margin-left: 2rem;
+        width: 20rem;
+    }
+    #p2{
+        font-size: 0.8rem;
+        margin-left: 2rem;
+        width: 20rem;
+    }
+    #div1{
+        /* display: flex; */
+        display: inline-block;
+    }
+    #form1{
+        /* position: relative; */
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+    }
+    #div2{
+        display: flex;
+        flex-direction: column;
+    }
+    #flovers{
+        display: flex;
+        flex-direction: column;
+    }
+    #foods{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15%; 
+    }
+    #div3{
+        display: inline-block;
+        /* flex-direction: column; */
+        
+    }
+    #div31{
+        width: 30%;
+        margin-top: 5rem;
+        height: 100%;
+        /* margin-left: 0%; */
+        text-align: center;
+        
+    }
+    .about{
+        width: 70%;
+    }
+    #div4{
+        display: inline-block;
+    }
+    #mark{
+        width: 30%;
+        left: 5rem;
+
+    }
+    #Mac{
+        width: 30%;
+        left: 16rem;
+    }
+    #footer{
+        width: 10rem;
+    }
+    #res2{
+        display: flex;
+        flex-direction: column;
+    }
+    #form2{
+        /* display: block; */
+        position: relative;
+        left: 6rem;
+        top: 50rem;
+    }
+}
